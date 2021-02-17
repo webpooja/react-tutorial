@@ -36,6 +36,10 @@
   color: #fff;
   box-shadow: #333 0px 1px 5px;
 }
+button.remove-to-btn {
+  background-color: rgb(49, 27, 148);
+  margin-top: 8px;
+}
 .img-wrapper img {
   width: 90px;
   margin-top: -10px;
@@ -45,11 +49,12 @@
   width: 500px;
   border: 1px solid #ccc;
   margin-left: 10%;
+  margin-top: 5%;
 }
 .item {
   float: left;
   display: inline-block;
-  padding: 20px;
+  padding: 14px;
   width: 120px;
   height: 70px;
 }
@@ -58,6 +63,20 @@
   position: absolute;
   right: 1%;
   top: 1%;
+  margin-right: 10%;
+}
+.cart-count {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  color: #fff;
+  margin-right: 10%;
 }
 
 @keyframes App-logo-spin {
